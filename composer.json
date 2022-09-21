@@ -1,0 +1,25 @@
+{
+    "name": "meysamhosseini/didar",
+    "description": "This Package is for Working with DiDar's WebService",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MeysamHosseini\\Didar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Meysam Hosseini",
+            "email": "meysamhosseini1995@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra" : {
+      "laravel" : {
+        "providers" : [
+          "MeysamHosseini\\Didar\\DidarServiceProvider"
+        ]
+      }
+    }
+}
