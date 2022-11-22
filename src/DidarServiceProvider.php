@@ -9,7 +9,7 @@ class DidarServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . './../config/didar.php' => config_path('didar.php')
+            __DIR__ . '/../config/didar.php' => config_path('didar.php')
         ]);
     }
 
