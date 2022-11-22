@@ -15,7 +15,7 @@ class DidarServiceProvider extends ServiceProvider
 
     public function register()
     {
-        $this->app->singleton(Didar::class, function () {
+        $this->app->singleton("Didar", function () {
             return new Didar(config('didar.api_key'));
         });
     }

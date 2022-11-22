@@ -19,7 +19,10 @@
       "laravel" : {
         "providers" : [
           "MeysamHosseini\\Didar\\DidarServiceProvider"
-        ]
+        ],
+        "aliases": {
+          "Didar": "MeysamHosseini\\Didar\\Facades\\Didar"
+        }
       }
     }
 }
